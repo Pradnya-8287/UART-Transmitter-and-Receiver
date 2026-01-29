@@ -9,8 +9,8 @@ UART is an asynchronous serial communication protocol that transmits data one bi
 # Description
 ## 1) UART Transmitter
 The transmitter converts 8-bit parallel data into a serial stream using an FSM.
-"i_DV" – Data valid input to start transmission
-"i_Byte" – 8-bit parallel input data
-"o_Serial_Data" – Serialized UART output
-"o_Sig_Active" – Indicates transmitter is busy
-"o_Sig_Done" – Indicates transmission completion
+i. "i_DV" – Data valid input to start transmission
+ii. "i_Byte" – 8-bit parallel input data
+iii. "o_Serial_Data" – Serialized UART output
+iv. "o_Sig_Active" – Indicates transmitter is busy
+v. "o_Sig_Done" – Indicates transmission completion
