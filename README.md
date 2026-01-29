@@ -55,6 +55,16 @@ gtkwave testbench.vcd
 ![UART Receiver Waveform](waveform/Rx_operation.png)
 ### End-to-End UART Communication
 ![UART End-to-End Waveform](waveform/End_to_End_communication.png)
+## Result 
+- Correct UART framing observed in waveforms
+- Proper FSM transitions in both transmitter and receiver
+- Received byte matches transmitted byte
+- Data valid signal asserted after successful reception
+## Future Improvements
+- Configurable data width
+- Parity bit support
+- Framing error detection
+- Support for additional serial protocols (e.g., SPI)
 
 
 
